@@ -3,32 +3,41 @@
    <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link href="main.css" rel="stylesheet">
+        <link href="https://fonts.google.com/specimen/Muli?selection.family=Muli">
     </head>
     <!-- Header image and page title -->
-    <div class="container-fluid">
-        <div class="row">
-           <div class="headerSection"
-                <div class = "col-xs-12">
-                    <img class="img-responsive mainImage" src="title%20pic.jpg"
-                </div>
-                <img class="img-responsive pageTitle" src="http://www.tonysbikeswakefield.co.uk/resources/tony's%20bikes%20wakefield%20logo.png">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <a class="navbar-brand">Bike Garage</a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Gallary</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row bodyRow">
-                <div class="col-sm-3 col-xs-12">
-                    <div class="sidebar-nav">
-                        <button type="button" class="btn btn-Primary btn-block">Home</button>
-                        <button type="button" class="btn btn-Primary btn-block">Gallary</button>
-                        <button type="button" class="btn btn-Primary btn-block">Services</button>
-                        <button type="button" class="btn btn-Primary btn-block">Contact</button>
-                    </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <img id="mainPhoto" class="img-responsive" src="title%20pic.jpg">
+                <div class="titlebox">
+                    <h1 class="title">Tony's Garage</h1>
                 </div>
-                <div class="col-sm-9 col-sm-12">
+            </div>
+        </div>
+        </div>
+    </div>
+        <div class="mainbody container">
+            <div class="row bodyRow">
+                <div class="col-sm-12">
                     <div class="row">
                         <div class="col-sm-12">
                           <h1 id="bikeWeek">Bike of the Week</h1>
-                          <img id="BotD" class="img-responsive" src="Bikeoftheday%20main.jpg">
+                          <img id="BotD" class="img-responsive img-thumbnail" src="Bikeoftheday%20main.jpg">
                     </div>
                             <div class="row">
                                 <div class="col-xs-4">
@@ -54,6 +63,12 @@
             </div>
             </div>
         </div>
-                <!--Main body of content-->
+        <div class="container-fluid footer">
+            <div class="row">
+                <div class="col-sm-4">801.529.2895</div>
+                <div class="col-sm-4">aranallo121@gmail.com</div>
+                <div class="col-sm-4">317 w. Roosevelt, Alpine UT</div>
+            </div>
+        </div>
     </body>
 </html>
